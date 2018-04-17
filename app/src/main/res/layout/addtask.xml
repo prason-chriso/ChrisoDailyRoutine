@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddd">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        android:text="Day"
+        android:textAlignment="center"
+        android:textColor="#920"
+        android:textSize="22pt"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editFrom"
+        android:background="#d7deea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="00:00"
+        android:padding="10px"
+        android:textAlignment="center"
+        android:textSize="20pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        android:text="To"
+        android:textColor="#000"
+        android:textSize="20pt"
+        android:textAlignment="center"
+                />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        android:textSize="20pt"
+        android:hint="00:00"
+        android:background="#d7deea"
+
+        android:id="@+id/editTo"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editTask"
+        android:layout_height="180dp"
+        android:inputType="textPersonName"
+        android:textSize="16pt"
+        android:background="#89aad3"
+        android:scrollbars="vertical"
+        android:hint="Enter your task..."
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:id="@+id/btnAdd"
+            android:textColor="#900"
+            android:layout_marginTop="15px"
+            android:textStyle="bold"
+            android:background="#879fc6"
+            android:textSize="30px"
+            android:layout_gravity="center_horizontal"/>
+
+   </LinearLayout>
